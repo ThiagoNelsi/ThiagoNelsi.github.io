@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    display: inline;
+    color: #333;
+}
+
+h1:hover {
+    text-shadow: 1px 1px 10px #838282;
+    transition: 0.2s;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+}
